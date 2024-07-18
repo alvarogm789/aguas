@@ -1,0 +1,54 @@
+.cuadrillas {
+  padding: 20px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.cardc {
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco con transparencia */
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    backdrop-filter: blur(7px); 
+    -webkit-backdrop-filter: blur(2px); 
+  }
+
+.cardc .contenido {
+  text-align: center;
+}
+
+.cardc .contenido h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cardc .contenido p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* 
+.table tbody tr:nth-child(even) {
+  background-color: #eb0404;
+} */
